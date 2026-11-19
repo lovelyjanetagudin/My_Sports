@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="purple_500">#6200EE</color>
+    <color name="purple_700">#3700B3</color>
+    <color name="teal_200">#03DAC5</color>
+    <color name="purple_200">#BB86FC</color>
+
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="gray_light">#F5F5F5</color>
+    <color name="gray_text">#666666</color>
+
+    <color name="sport_football">#2E7D32</color>
+    <color name="sport_basketball">#E65100</color>
+    <color name="sport_tennis">#F57F17</color>
+    <color name="sport_swimming">#0277BD</color>
+</resources>

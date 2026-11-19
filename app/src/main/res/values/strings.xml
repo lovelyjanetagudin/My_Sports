@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">My Sports</string>
+    <string name="title_home">Home</string>
+    <string name="title_account">Account</string>
+    <string name="title_profile">Profile</string>
+    <string name="title_my_sports">My Sports</string>
+
+    <string name="home_fragment_label">Home Fragment</string>
+    <string name="account_fragment_label">Account Fragment</string>
+    <string name="profile_fragment_label">Profile Fragment</string>
+
+    <string name="my_sports_description">Select a sport below to view detailed information:</string>
+
+    <!-- Secondary destinations -->
+    <string name="sport_football">Football</string>
+    <string name="sport_basketball">Basketball</string>
+    <string name="sport_tennis">Tennis</string>
+    <string name="sport_swimming">Swimming</string>
+
+    <string name="football_desc">Football is a family of team sports that involve, to varying degrees, kicking a ball to score a goal.</string>
+    <string name="basketball_desc">Basketball is a team sport in which two teams, most commonly of five players each, opposing one another on a rectangular court, compete with the primary objective of shooting a basketball through the defender\'s hoop.</string>
+    <string name="tennis_desc">Tennis is a racket sport that can be played individually against a single opponent or between two teams of two players each.</string>
+    <string name="swimming_desc">Swimming is an individual or team racing sport that requires the use of one\'s entire body to move through water.</string>
+</resources>

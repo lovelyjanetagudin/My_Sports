@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/homeFragment">
+
+    <!-- Top-Level Destination 1: Home -->
+    <fragment
+        android:id="@+id/homeFragment"
+        android:name="com.tagudin.mysports.HomeFragment"
+        android:label="@string/title_home"
+        tools:layout="@layout/fragment_home" />
+
+    <!-- Top-Level Destination 2: Account -->
+    <fragment
+        android:id="@+id/accountFragment"
+        android:name="com.tagudin.mysports.AccountFragment"
+        android:label="@string/title_account"
+        tools:layout="@layout/fragment_account" />
+
+    <!-- Top-Level Destination 3: Profile -->
+    <fragment
+        android:id="@+id/profileFragment"
+        android:name="com.tagudin.mysports.ProfileFragment"
+        android:label="@string/title_profile"
+        tools:layout="@layout/fragment_profile" />
+
+    <!-- Top-Level Destination 4: My Sports -->
+    <fragment
+        android:id="@+id/mySportsFragment"
+        android:name="com.tagudin.mysports.MySportsFragment"
+        android:label="@string/title_my_sports"
+        tools:layout="@layout/fragment_my_sports">
+
+        <!-- Actions to secondary sports destinations -->
+        <action
+            android:id="@+id/action_mySportsFragment_to_footballFragment"
+            app:destination="@id/footballFragment" />
+        <action
+            android:id="@+id/action_mySportsFragment_to_basketballFragment"
+            app:destination="@id/basketballFragment" />
+        <action
+            android:id="@+id/action_mySportsFragment_to_tennisFragment"
+            app:destination="@id/tennisFragment" />
+        <action
+            android:id="@+id/action_mySportsFragment_to_swimmingFragment"
+            app:destination="@id/swimmingFragment" />
+    </fragment>
+
+    <!-- Secondary Sports Destinations -->
+    <fragment
+        android:id="@+id/footballFragment"
+        android:name="com.tagudin.mysports.FootballFragment"
+        android:label="@string/sport_football"
+        tools:layout="@layout/fragment_football" />
+
+    <fragment
+        android:id="@+id/basketballFragment"
+        android:name="com.tagudin.mysports.BasketballFragment"
+        android:label="@string/sport_basketball"
+        tools:layout="@layout/fragment_basketball" />
+
+    <fragment
+        android:id="@+id/tennisFragment"
+        android:name="com.tagudin.mysports.TennisFragment"
+        android:label="@string/sport_tennis"
+        tools:layout="@layout/fragment_tennis" />
+
+    <fragment
+        android:id="@+id/swimmingFragment"
+        android:name="com.tagudin.mysports.SwimmingFragment"
+        android:label="@string/sport_swimming"
+        tools:layout="@layout/fragment_swimming" />
+
+</navigation>
